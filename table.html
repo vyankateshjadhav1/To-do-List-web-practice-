@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Table with Cellspacing and Cellpadding</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: separate; 
+            width: 50%;
+            background: red;
+            
+            
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            height: 100px;
+            background: yellow;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <th>Name</th>
+            <th></th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+           
+        </tr>
+    </table>
+</body>
+</html>
